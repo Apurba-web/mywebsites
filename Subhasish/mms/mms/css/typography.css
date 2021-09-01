@@ -1,0 +1,86 @@
+h1, h2, h3, h4, p, span {
+  text-rendering: optimizeLegibility;
+}
+h1.center, h2.center, h3.center, h4.center, p.center, span.center {
+  text-align: center;
+}
+h1.right, h2.right, h3.right, h4.right, p.right, span.right {
+  text-align: right;
+}
+h1.left, h2.left, h3.left, h4.left, p.left, span.left {
+  text-align: left;
+}
+h1.justify, h2.justify, h3.justify, h4.justify, p.justify, span.justify {
+  text-align: justify;
+}
+h1.wide, h2.wide, h3.wide, h4.wide, p.wide, span.wide {
+  letter-spacing: 2px;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.4em;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 52px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 20px;
+}
+h3.bold {
+  font-weight: 700;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 14px;
+}
+h4.bold {
+  font-weight: 700;
+}
+
+p, span {
+  font-family: "Lato", sans-serif;
+  font-size: 0.85rem;
+  line-height: 1.4rem;
+  font-weight: 400;
+}
+p.small, span.small {
+  font-size: 0.65rem;
+}
+p.bold, span.bold {
+  font-weight: 700;
+}
+
+a {
+  font-family: "Lato", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 400;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: #1c115b;
+  color: #0f0f0f;
+  cursor: pointer;
+}
+a:hover {
+  color: blue;
+  text-decoration-style: solid;
+  text-decoration-color: blue;
+}
+a img {
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+a img:hover {
+  transform: scale(1.2);
+}
+
+/*# sourceMappingURL=typography.css.map */

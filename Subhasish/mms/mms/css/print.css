@@ -1,0 +1,15 @@
+@page {
+  size: 47em 64em;
+  margin-left: 2.4em;
+  margin-right: 2.4em;
+  margin-botom: 2.4em;
+}
+
+@media all {
+  .page-break {display:block; page-break-before: always;}
+}
+
+#prn-btn {
+  display: none;
+  visibility: none;
+}

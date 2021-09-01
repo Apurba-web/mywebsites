@@ -1,0 +1,209 @@
+.btn {
+  position: relative;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  font-stretch: expanded;
+  text-align: center;
+  width: 8rem;
+  height: 2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.btnLow {
+  position: relative;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 0.80rem;
+  font-stretch: expanded;
+  text-align: center;
+  width: 8rem;
+  height: 1.7rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.btn.outline-blue {
+  border: 2px solid #142d6e;
+  background-color: #FFF;
+  color: #262626;
+}
+.btn.outline-green {
+  border: 2px solid #008651;
+  background-color: #FFF;
+  color: #262626;
+}
+.btn.solid {
+  border: 2px solid #ffaf00;
+  background-color: #ffaf00;
+  color: #FFF;
+}
+.btn.large {
+  width: 12rem;
+  height: 3.4rem;
+  padding: 1.2rem;
+}
+.btn.round {
+  border-radius: 0.5rem;
+}
+.btn:hover {
+  background-color: #ffce48;
+  color: black;
+}
+
+.button__edit {
+  position: relative;
+  margin: auto;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.btnOverlay {
+  position: relative;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  font-stretch: expanded;
+  text-align: center;
+  width: 8rem;
+  height: 2rem;
+  padding-top: 0.5rem;
+  cursor: pointer;
+}
+.btnOverlay.withblue {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  background-color: #142d6e;
+  transition: 0.5s ease;
+}
+.btnOverlay.withgreen {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  background-color: #008651;
+  transition: 0.5s ease;
+}
+.btnOverlay a {
+  /*
+  position: absolute; top: 50%; left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  */
+  font-family: "Lato", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  font-stretch: expanded;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+.btnOverlay:hover {
+  width: 100%;
+}
+
+.btn-circle {
+  position: relative;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 1.8rem;
+  text-align: center;
+  width: 3rem;
+  height: 3rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border: thin solid black;
+  border-radius: 50px;
+  background-color: white;
+  color: #0f0f0f;
+  cursor: pointer;
+}
+.btn-circle.small {
+  width: 2rem;
+  height: 2rem;
+  font-size: 1rem;
+  padding-bottom: 0.5rem;
+}
+.btn-circle:hover {
+  background-color: #ffaf00;
+  color: white;
+}
+
+.button__close {
+  position: relative;
+  margin: auto;
+  padding: 0px;
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+}
+
+.button__close:hover {
+  opacity: 0.7;
+}
+
+.box {
+  position: relative;
+  border: thin solid #ffaf00;
+}
+.box.border-dark {
+  border-color: #4a484d;
+}
+.box.border-light {
+  border-color: #b6b6b6;
+}
+.box.border-round {
+  border-radius: 8px;
+}
+.box.border-lightpalegreen {
+  border-color: #00c8c8;
+}
+.box.border-lightmossgreen {
+  border-color: #23b892;
+}
+.box.border-makeuppink {
+  border-color: #ff9c9a;
+}
+.box.border-lavender {
+  border-color: #8e84c5;
+}
+.box.solid {
+  background-color: #ffaf00;
+  color: white;
+}
+.box.solid-soft {
+  background-color: #b6b6b6;
+  color: #333333;
+}
+.box.lightyellow {
+  background-color: #ffe9ae;
+  color: #333333;
+}
+.box.white {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.underline-thin {
+  border-bottom: thin solid #142d6e;
+}
+
+.underline-regular {
+  border-bottom: 1px solid #142d6e;
+}
+
+.underline-bold-white {
+  border-bottom: 2px solid white;
+}
+
+/*# sourceMappingURL=btn-box-border.css.map */

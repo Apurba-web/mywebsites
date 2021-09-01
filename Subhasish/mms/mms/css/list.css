@@ -1,0 +1,26 @@
+ul {
+  list-style-type: disc;
+  margin: 0.5rem;
+  padding: 0.25rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4em;
+  color: inherit;
+}
+ul.circle {
+  list-style-type: circle;
+}
+ul.square {
+  list-style-type: square;
+}
+ul.small {
+  font-size: 0.85rem;
+}
+ul li {
+  margin: 0.75rem 0;
+}
+ul li.small {
+  font-size: 0.85rem;
+}
+
+/*# sourceMappingURL=list.css.map */

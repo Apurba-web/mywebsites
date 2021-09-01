@@ -1,0 +1,164 @@
+label {
+  display: block;
+  padding: 12px 4px 4px 0;
+  font-size: 1rem;
+}
+label.small {
+  font-size: 0.75rem;
+}
+
+input[type=text], [type=password], textarea, [type=number] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 0.5rem;
+  background-color: white;
+  color: #0a0a0a;
+  resize: vertical;
+  font-size: 1rem;
+}
+input[type=text].small, [type=password].small, textarea.small, [type=number].small {
+  font-size: 0.75rem;
+}
+input[type=text].box, [type=password].box, textarea.box, [type=number].box {
+  border: thin solid #b6b6b6;
+  border-radius: 4px;
+}
+input[type=text].underline, [type=password].underline, textarea.underline, [type=number].underline {
+  border: 0;
+  border-bottom: 1px solid #4a484d;
+}
+
+input[type=radio] {
+  color: #575757;
+  font-size: 0.85rem;
+}
+input[type=radio].small {
+  font-size: 0.75rem;
+}
+
+input[type=submit] {
+  position: relative;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  font-stretch: expanded;
+  text-align: center;
+  width: 8rem;
+  height: 2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+input[type=submit].round {
+  border-radius: 4px;
+}
+input[type=submit].rectangle {
+  width: 10rem;
+  height: 2.5rem;
+  border: 2px solid #ffaf00;
+  background-color: inherit;
+  font-size: 1rem;
+}
+input[type=submit].capsule {
+  border-radius: 16px;
+  background-color: inherit;
+}
+input[type=submit].solid {
+  background-color: #ffaf00;
+  color: white;
+}
+input[type=submit].small {
+  font-size: 0.75rem;
+  width: 6rem;
+}
+input[type=submit].smallX {
+  font-size: 0.75rem;
+  width: 3rem;
+  height: 1.5rem;
+  padding: 0.25rem;
+}
+input[type=submit].toleft {
+  float: left;
+}
+input[type=submit].toright {
+  float: right;
+}
+input[type=submit].tocenter {
+  left: 50%;
+  transform: translateX(-50%);
+}
+input[type=submit]:hover {
+  background-color: #ffce48;
+  color: black;
+}
+
+input[type=file]:hover {
+  cursor: pointer;
+}
+
+select {
+  width: 100%;
+  border: thin solid #b6b6b6;
+  padding: 4px;
+  margin: 4px 0;
+  font-size: 1rem;
+}
+select.small {
+  font-size: 0.75rem;
+}
+select.tall {
+  height: 40px;
+}
+
+.input-error {
+  color: #cc0000;
+  font-size: 0.75rem;
+}
+
+.msg__err {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  top: 100px;
+  right: 10px;
+  width: 200px;
+  min-height: 60px;
+  padding: 8px;
+  font-size: 16px;
+  z-index: 1;
+  background-color: #ffe6e6;
+  border: 1px solid #e60000;
+  color: #cc0000;
+}
+
+.msg__success {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  top: 100px;
+  right: 10px;
+  width: 200px;
+  min-height: 60px;
+  padding: 8px;
+  font-size: 16px;
+  z-index: 1;
+  background-color: #d9ffcc;
+  border: 1px solid #269900;
+  color: #208000;
+}
+
+div.frm__title {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2.4rem;
+  background-color: #ffe9ae;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.4rem 0.7rem 0.7rem;
+  color: black;
+}
+
+/*# sourceMappingURL=form.css.map */

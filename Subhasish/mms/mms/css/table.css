@@ -1,0 +1,161 @@
+table.basic {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+  text-align: left;
+  overflow-x: auto;
+  font-family: "Lato", sans-serif;
+  font-size: 0.85rem;
+}
+table.table-border-yellow {
+  border: 1px solid #ffaf00;
+}
+table.table-border-green {
+  border: 1px solid #008651;
+}
+table.table-border-blue {
+  border: 1px solid #00c8c8;
+}
+table.table-border-pink {
+  border: 1px solid #ff9c9a;
+}
+table.table-border-dark {
+  border: 1px solid #4a484d;
+}
+table.small-medium {
+  overflow-y: scroll;
+}
+
+thead {
+  width: 200%;
+  height: 1rem;
+  color: black;
+  background-color: #00ff80;
+  }
+thead.thead-yellow {
+  background-color: #ffaf00;
+}
+thead.thead-green {
+  background-color: #008651;
+}
+thead.thead-blue {
+  background-color: #00c8c8;
+}
+thead.thead-pink {
+  background-color: #ff9c9a;
+}
+thead.thead-grey {
+  background-color: #646464;
+}
+
+th {
+  height: 1.85rem;
+  padding: 0.5rem;
+  border: none;
+  background-color: none;
+  color: #000;
+  text-align: left;
+}
+th.color-reverse {
+  color: white;
+}
+th.th-border {
+  border: 1px solid #4a484d;
+}
+th.small {
+  font-size: 0.75rem;
+}
+th.extrasmall {
+  font-size: 0.65rem;
+}
+th.center {
+  text-align: center;
+}
+th.middle {
+  vertical-align: middle;
+}
+
+tr {
+  display:block;
+  border: none;
+  width: 100%;
+
+}
+tr.tr-border {
+  border: 0px solid #b6b6b6;
+}
+tr.tr-two-color-lightgrey:nth-child(even) {
+  background-color: #e6e6e6;
+}
+tr.tr-two-color-lightgrey:nth-child(odd) {
+  background-color: white;
+}
+tr.tr-two-color-lightgrey:hover {
+  background-color: #d9d9d9;
+  color: black;
+}
+tr.tr-two-color-pink:nth-child(even) {
+  background-color: #ffd5d5;
+}
+tr.tr-two-color-pink:nth-child(odd) {
+  background-color: white;
+}
+tr.tr-two-color-pink:hover {
+  background-color: #ffbbbb;
+}
+tr.tr-two-color-blue:nth-child(even) {
+  background-color: #c8ffff;
+}
+tr.tr-two-color-blue:nth-child(odd) {
+  background-color: white;
+}
+tr.tr-two-color-blue:hover {
+  background-color: #00c8c8;
+}
+tr.tr-two-color-green:nth-child(even) {
+  background-color: #aaffdd;
+}
+tr.tr-two-color-green:nth-child(odd) {
+  background-color: white;
+}
+tr.tr-two-color-green:hover {
+  background-color: #008651;
+}
+
+td {
+  height: 10px;
+  padding: 0.3rem;
+  width:46.5%;
+  border: none
+  vertical-align: middle;
+  color: #000;
+  text-align: left;
+  font-size: 0.85rem;
+}
+td.small {
+  font-size: 0.75px;
+}
+td.extrasmall {
+  font-size: 0.65px;
+}
+td.center {
+  text-align: center;
+}
+td.middle {
+  vertical-align: middle;
+}
+td a {
+  font-family: "Lato", sans-serif;
+  font-size: 0.85rem;
+  line-height: 1.4em;
+  font-weight: 300;
+  text-decoration: none;
+  color: #262626;
+  cursor: pointer;
+}
+td a:hover {
+  color: blue;
+}
+
+/*# sourceMappingURL=table.css.map */
